@@ -13,7 +13,7 @@ I have also worked on some personal projects for learning/discovery/fun like:
 - [FoodGenie](https://lil-white-shadow.github.io/food-genie/), a food search engine made with React and powered by FoodData Central API from U.S. Department of Agriculture.
 - [etch-a-sketch](https://lil-white-shadow.github.io/etch-a-sketch/), A simple game made in the ancient times (2021) when learning the fundamentals of frontend development via [The Odin Project](https://www.theodinproject.com/).
 
-Feel free to reach out to say hi, leave a comment or if you want to colloborate with me for your next project.
+Feel free to reach out via [email](mailto:kru.patel.swe@gmail.com) to say hi, leave a comment or if you want to colloborate with me for your next project.
 
 <!--
 **lil-white-shadow/lil-white-shadow** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
