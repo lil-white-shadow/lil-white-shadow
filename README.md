@@ -9,9 +9,10 @@ My previous problem solving experiences include:
 - designing, CNC programming, and machining innovative (cutting edge!) cutting tools (like [this](https://drive.google.com/file/d/1i2iLkuTdCjX-TUlJUGK4dxf5vZBymDFM/view?usp=sharing) and [this](https://drive.google.com/file/d/1tUnMRt3kOjj_ZFRxYazZbVh13mQLnJ4G/view?usp=sharing)) for the aerospace industry as a _Manufacturing Engineer_ at [OSG](https://www.osgtool.com/)
 
 I have also worked on some personal projects for learning/discovery/fun like:
+- [Endless Pawsibilities](https://lil-white-shadow.github.io/endlessPawsibilities/), an interactive game made using Angular and dog-api.
 - [Jot](https://lil-white-shadow.github.io/jot-scheduling-app/), a full stack scheduling app made with React, Node / Express, and MongoDB used by real people every week.
 - [FoodGenie](https://lil-white-shadow.github.io/food-genie/), a food search engine made with React and powered by FoodData Central API from U.S. Department of Agriculture.
-- [etch-a-sketch](https://lil-white-shadow.github.io/etch-a-sketch/), A simple game made in the ancient times (2021) when learning the fundamentals of frontend development via [The Odin Project](https://www.theodinproject.com/).
+- [etch-a-sketch](https://lil-white-shadow.github.io/etch-a-sketch/), a simple game made in the ancient times (2021) when learning the fundamentals of frontend development via [The Odin Project](https://www.theodinproject.com/).
 
 Feel free to reach out via [email](mailto:kru.patel.swe@gmail.com) to say hi, leave a comment or if you want to colloborate with me for your next project.
 
