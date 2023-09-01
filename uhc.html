@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="work.css">
+  <script defer type="text/javascript" src="script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+      <section>
+        <h1>
+          <a href="/">
+            <img src="/images/name.svg" alt="Krutarth Patel">
+          </a>
+        </h1>
+        <div class="linkWrapper">
+          <a href="/sdc.html"><img src="/images/sdc_logo.svg" alt="Scholarships.com"></a>
+          <a href="/projects.html"><img src="/images/personal_projects.svg" alt="Personal Projects"></a>
+        </div>
+      </section>
+    </nav>
+    <hr>
+    <section>
+      <h2>
+        United Healthcare: Zipcode Input Pain Point
+      </h2>
+      <h3>
+        Background
+      </h3>
+      <p>
+        Zipcode input is a critical component used across aarpmedicareplans.com. The previous implementation of this component caused major pain points for users on slower networks where user input was erased when the page finished loading. The added complexity of displaying geo-specific content compounded the issue.
+      </p>
+      <h3>
+        Assignment
+      </h3>
+      <p>
+        To fix the issue by refactoring the component logic. 
+      </p>
+    </section>
+    <section>
+      <h3>
+        Approach
+      </h3>
+      <p>
+        Started by debugging in browser to understand the flow of the data and the variations caused by network conditions leading to the wipe-out of user input.
+      <h3>
+        Collaboration
+      </h3>
+      <p>
+        Worked with the team lead to gain understanding of logic related to geo-specific content loaded from AEM content management system.
+      </p>
+      <h3>
+        Outcome
+      </h3>
+      <p>
+        Gained a thorough understanding of the existing implementation and then enhanced it by eliminating the wipe-out in one use case and extracting, storing, and loading the partial user input after page load in another use case.
+      </p>
+      <ul>
+          <li>Debugging</li>
+          <li>Code Refactoring</li>
+          <li>Pain Point Resolution</li>
+      </ul>
+    </section>
+    <hr>
+    <section>
+      <h2>
+        United Healthcare: Twine.js - 3rd Party Library 
+      </h2>
+      <h3>
+        Background
+      </h3>
+      <p>
+        Twine.js is a two-way data-binding library which was used to dynamically update just two values, a phone number and a zipcode, on many pages across the site. While it was functional, the library had an outsized impact on site performance.
+      </p>
+      <h3>
+        Assignment
+      </h3>
+      <p>
+        To reduce or eliminate the dependency on twine.js by designing a custom implementation of the two-way data-binding mechanism. 
+      </p>
+    </section>
+    <section>
+      <h3>
+        Approach
+      </h3>
+      <p>
+        Started with a thorough debugging of the process from when the page starts loading until the data-binding is complete - either from availability of new data or by user input.
+      </p>
+      <h3>
+        Collaboration
+      </h3>
+      <p>
+        Consulted with a senior engineer to get a deeper understanding of when new data is available, what triggers it as well as a high level guidance on where to expect issues. Also collaborated closely with the QA&E team throughout the process as the changes were deployed from lower higher environments (QA, Stage, Offline Production, and Production).
+      </p>
+      <h3>
+        Outcome
+      </h3>
+      <p>
+        Designed a scalabile and efficient solution to improve performance while rigorously testing its effectiveness across various micro-apps on the site.  Successfully implemented the solution leading to considerable performance improvement.
+      </p>
+      <ul>
+        <li>Debugging</li>
+        <li>Scalable Design</li>
+        <li>Performance</li>
+      </ul>
+    </section>
+    <hr>
+    <section>
+      <h2>
+        United Healthcare: Performance Fine Tuning
+      </h2>
+      <h3>
+        Background
+      </h3>
+      <p>
+        Medicare Supplement is a section of the site which contains a family of mostly static pages. These pages had a history of performing poorly relative to other groups of static pages on the site.
+      </p>
+      <h3>
+        Assignment
+      </h3>
+      <p>
+        To optimize the performance of Medicare Supplement pages.
+      </p>
+    </section>
+    <section>
+      <h3>
+        Approach
+      </h3>
+      <p>
+        Conducted an in-depth research on the modern techniques for optimizing initial page load.
+      </p>
+      <h3>
+        Collaboration
+      </h3>
+      <p>
+        Worked closely with a senior engineer and a system architect to ensure the proposed changes would not adversely impact any business critical or analytics related services.
+      </p>
+      <h3>
+        Outcome
+      </h3>
+      <p>
+        Used preloading, pre-caching, lazy-loading in a series of experiments across various network conditions to determine the optimal render path.
+      </p>
+      <ul>
+        <li>Page Load Speed</li>
+        <li>Critical Render Path</li>
+        <li>PRPL Pattern</li>
+      </ul>
+    </section>
+    <hr>
+    <section>
+      <h2>
+        United Healthcare: Performance Monitoring
+      </h2>
+      <h3>
+        Background
+      </h3>
+      <p>
+        A renewed emphasis was placed on performance in anticipation of the upcoming open enrollment period.
+      </p>
+      <h3>
+        Assignment
+      </h3>
+      <p>
+        To monitor and report issues as well as recommend solutions for fixing them. 
+      </p>
+    </section>
+    <section>
+      <h3>
+        Approach
+      </h3>
+      <p>
+        Set aside a daily time to monitor performance using an internal dashboard as well as external tools like Dynatrace and Splunk. Report findings daily and schedule a triage meeting with the appropriate team members as needed.
+      </p>
+      <h3>
+        Collaboration
+      </h3>
+      <p>
+        Collaborated frequently with many different colleagues depending on the issue.
+      </p>
+      <h3>
+        Outcome
+      </h3>
+      <p>
+        Identified and fixed a vulnerability caused by a deprecated MutationEvent which was slowing the page load and for some users even causing the page to crash.
+      </p>
+      <p>
+        Identified and reported various scripts with high JS execution time requiring an evaluation for refactoring.
+      </p>
+      <p>
+        Minimized the business impact from issues affecting only a subset of users by analyzing user sessions on Dynatrace and identifying them sooner than the routine process.
+      </p>
+      <ul>
+        <li>Error Resolution</li>
+        <li>Resilient Design</li>
+        <li>Robust Design</li>
+      </ul>
+    </section>
+    <hr>
+    <footer>
+      <span>
+        &copy; <script>document.write(new Date().getFullYear())</script> Krutarth Patel
+      </span>
+      <ul>
+        <li><a target="_blank" rel="noopener noreferrer" href="mailto:kru.patel.swe@gmail.com">Email</a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/kru-patel-swe/">LinkedIn</a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/lil-white-shadow">GitHub</a></li>
+      </ul>
+    </footer>
+</body>
+</html>

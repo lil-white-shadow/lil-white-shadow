@@ -1,0 +1,38 @@
+hr {
+  border: 2px solid #000000;
+}
+
+nav {
+  background-color: #FFEA29;
+  box-sizing: border-box;
+}
+
+nav section {
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+nav h1 img {
+  width: min(90vw, 500px);
+}
+
+nav .linkWrapper a {
+  width: max(25%, 250px);
+  border-bottom-width: 4px;
+}
+
+section ul {
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+li {
+  padding: 5px 25px;
+  border-radius: 50px;
+}
