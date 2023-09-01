@@ -201,6 +201,12 @@ li {
   border-radius: 5px;
 }
 
+.scrollToTop {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
 footer {
   padding: 20px;
   display: flex;
@@ -350,5 +356,9 @@ footer li:hover {
 
   .linkWrapper {
     gap: 1em;
+  }
+
+  .scrollToTop > img {
+    width: 100px;
   }
 }
