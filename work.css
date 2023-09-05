@@ -65,6 +65,7 @@ li {
   }
 
   .workImageWrapper {
+    aspect-ratio: 1 / 1;
     border: none;
     border-radius: 0;
     }
