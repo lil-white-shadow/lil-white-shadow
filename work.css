@@ -77,7 +77,7 @@ li {
 
   .workImageWrapper__noScroll {
     overflow-y: hidden;
-    aspect-ratio: auto;
+    aspect-ratio: auto !important;
   }
 }
 
