@@ -100,15 +100,15 @@ section {
 }
 
 h2 {
-  font-size: 3.5rem;
-}
-
-h3 {
   font-size: 3rem;
 }
 
-p, span, li {
+h3 {
   font-size: 2.5rem;
+}
+
+p, span, li {
+  font-size: 1.75rem;
 }
 
 .hero {
@@ -162,11 +162,11 @@ p, span, li {
 }
 
 .inShort__aside h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .inShort__aside p {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 
 .work {
@@ -258,22 +258,6 @@ footer li:hover {
 }
 
 @media (max-width: 1400px) {
-  section {
-    gap: 1.75rem;
-  }
-  
-  h2 {
-    font-size: 3.25rem;;
-  }
-
-  h3 {
-    font-size: 2.75rem;
-  }
-
-  p, span, li {
-    font-size: 2rem;
-  }
-
   .about p {
     max-width: min(800px, 60%);
   }
@@ -282,33 +266,9 @@ footer li:hover {
     width: min(550px, 32%);
     margin-left: calc(50vw + 150px);
   }
-
-  .inShort__aside h2 {
-    font-size: 2.5rem;
-  }
-  
-  .inShort__aside p {
-    font-size: 1.5rem;
-  }
 }
 
-@media (max-width: 1000px) {
-  section {
-    gap: 1.5rem;
-  }
-  
-  h2 {
-    font-size: 3rem;;
-  }
-
-  h3 {
-    font-size: 2.5rem;
-  }
-
-  p, span, li {
-    font-size: 1.75rem;
-  }
-    
+@media (max-width: 1000px) { 
   .hero {
     border-width: 4px;
   }
