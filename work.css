@@ -47,8 +47,8 @@ li {
   width: 100%;
   max-width: 1300px;
   aspect-ratio: 16 / 10;
-  border: 2vw solid #000000;
-  border-radius: 2vw;
+  border: min(32px, 3vw) solid #000000;
+  border-radius: min(32px, 3vw);
   overflow-y: scroll;
   margin: 0 auto;
   }
@@ -56,7 +56,7 @@ li {
 .workImage {
   width: 100%;
   max-width: 1300px;
-  height: fit-content;
+  height: auto;
 }
 
 @media (max-width: 600px) {
@@ -68,10 +68,6 @@ li {
     aspect-ratio: 1 / 1;
     border: none;
     border-radius: 0;
-    }
-
-    .workImage {
-      height: auto;
     }
 }
 
