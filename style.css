@@ -123,6 +123,22 @@ p, span, li {
   flex-direction: column;
   justify-content: center;
   gap: 1rem;
+  position: relative;
+}
+
+.hero ul {
+  position: absolute;
+  top: 0;
+  right: 6px;
+  gap: 2rem;
+}
+
+.hero li {
+  padding: 0;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #000000;
+  border-radius: 0;
 }
 
 .mobile img {
@@ -148,14 +164,14 @@ p, span, li {
 }
 
 .inShort__aside {
-  width: min(550px, 32%);
+  width: min(480px, 32%);
   padding: 2rem;
   border: 2px solid #000000;
   border-radius: 1rem;
   border-top-width: 8px;
   position: sticky;
   bottom: 100px;
-  margin-top: -250px;
+  margin-top: -300px;
   padding-bottom: 50px;
   margin-left: calc(50vw + 200px);
   background-color: #FFFFFF;
