@@ -53,6 +53,11 @@ li {
   margin: 0 auto;
   }
 
+.workImageWrapper__noScroll {
+  overflow-y: hidden;
+  aspect-ratio: auto;
+}
+
 .workImage {
   width: 100%;
   max-width: 1300px;
@@ -69,5 +74,10 @@ li {
     border: none;
     border-radius: 0;
     }
+
+  .workImageWrapper__noScroll {
+    overflow-y: hidden;
+    aspect-ratio: auto;
+  }
 }
 
