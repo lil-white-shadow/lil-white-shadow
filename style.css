@@ -209,7 +209,7 @@ p, span, li {
 }
 
 .linkWrapper a:active {
-  border-bottom: 0;
+  border-color: transparent;
 }
 
 .linkWrapper a img {
