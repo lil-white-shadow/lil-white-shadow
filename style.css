@@ -41,7 +41,6 @@ h1, h2, h3, h4, h5, h6 {
 a {
   text-decoration: none;
   color: #000000;
-  word-break: break-all;
 }
 
 ul {
@@ -107,7 +106,7 @@ h3 {
   font-size: 2.5rem;
 }
 
-p, span, li, button {
+p, span, li, .googleMeetLink {
   font-size: 1.75rem;
 }
 
@@ -221,6 +220,7 @@ p, span, li, button {
 
 .bodyLink {
   text-decoration: underline;
+  word-break: break-all;
 }
 
 .bodyLink:hover {
@@ -243,23 +243,28 @@ li {
   border-radius: 5px;
 }
 
-.contact a {
+.contact p a {
   border-bottom: 2px solid #000000;
 }
 
-.contact a:hover {
+.contact p a:hover {
   background: #FFEA29;
 }
 
-.googleMeetWrapper button {
-  font-family: 'Playfair Display', serif !important;
-  padding: 2rem 3rem;
+.googleMeetWrapper {
+  box-sizing: border-box;
+  display: flex;
+}
+
+.googleMeetWrapper .googleMeetLink {
+  background: #FFEA29;
+  padding: 1.5rem 3rem;
   border-bottom: 6px solid #000000;
   border-radius: 1rem;
   font-weight: 400;
 }
 
-.googleMeetWrapper button:active {
+.googleMeetWrapper .googleMeetLink:active {
   border-color: transparent;
   position: relative;
   top: 2px;
@@ -374,7 +379,7 @@ footer li:hover {
     font-size: 1.75rem;
   }
   
-  p, span, li, button {
+  p, span, li, .googleMeetLink {
     font-size: 1.25rem;
   }
 
@@ -382,7 +387,7 @@ footer li:hover {
     gap: 1em;
   }
 
-  .googleMeetWrapper button {
+  .googleMeetWrapper .googleMeetLink {
     padding: 1rem 2rem;
     border-bottom: 4px solid #000000;
     border-radius: 0.5rem;
