@@ -355,7 +355,7 @@ footer li:hover {
 @media (max-width: 600px) {
   section {
     margin: 3rem auto;
-    padding: 1.5rem;
+    padding: 1rem;
     gap: 1rem;
   }
 
@@ -383,6 +383,10 @@ footer li:hover {
     font-size: 1.25rem;
   }
 
+  .technologies__ul {
+    margin: 0 -6px;
+  }
+
   .linkWrapper {
     gap: 1em;
   }
@@ -392,7 +396,6 @@ footer li:hover {
     border-bottom: 4px solid #000000;
     border-radius: 0.5rem;
   }
-  
 
   .scrollToTop > img {
     width: 100px;
